@@ -9,7 +9,7 @@ config['auto_positioning'] = 0; // Use 0 this if you have defined your own colum
          
 
 blocks['news_tweakers'] = {
-  feed: 'http://feeds.feedburner.com/tweakers/nieuws'
+  feed: 'https://www.nrk.no/toppsaker.rss'
 }
 
 
