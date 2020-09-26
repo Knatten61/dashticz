@@ -8,9 +8,7 @@ config['use_favorites'] = 0; //Request all Domoticz Devices, not only favorites
 config['auto_positioning'] = 0; // Use 0 this if you have defined your own columns                             
          
 
-blocks['news_tweakers'] = {
-  feed: 'https://www.nrk.no/toppsaker.rss'
-}
+blocks['news_tweakers'] = {feed: 'https://www.nrk.no/toppsaker.rss'}
 
 
 //Definition of blocks                                                                                         
