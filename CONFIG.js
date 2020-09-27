@@ -9,6 +9,25 @@ config['auto_positioning'] = 0; // Use 0 this if you have defined your own colum
 
 config['default_news_url'] = 'https://www.nrk.no/toppsaker.rss';
 
+buttons = {}            //only once!!
+buttons.yr = {
+    width: 12,
+  isimage: true,
+  refreshimage: 60,
+    btnimage: 'https://www.yr.no/sted/Norge/Innlandet/Gran/Lauvstuhagan/advanced_meteogram.png',
+    url: 'https://www.yr.no/sted/Norge/Innlandet/Gran/Lauvstuhagan/time_for_time.html'
+};
+
+// Then add the button to a specific column:
+var columns = {}          //This line only once!!
+columns['3'] = {
+  blocks:  [
+      ...,
+      buttons.yr,
+      ...
+  ],
+  width: 1
+}
 //Definition of blocks                                                                                         
 blocks = {}                                                                                                    
 blocks[93] = { width: 6}                                                                                       
@@ -21,6 +40,7 @@ blocks[33] = { width: 4}
 columns = {}                                                                                                   
 columns[1] = { blocks : [94, 93], width: 8}                                                                    
 columns[2] = {blocks: ['news'],width: 4}
+columns[2] = {blocks: ['buttons.yr']}
 columns[3] = {blocks: [49,33], width:4}
                                                                                                                
 //Definition of screens                                                                                        
