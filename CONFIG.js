@@ -18,16 +18,6 @@ buttons.yr = {
     url: 'https://www.yr.no/sted/Norge/Innlandet/Gran/Lauvstuhagan/time_for_time.html'
 };
 
-// Then add the button to a specific column:
-var columns = {}          //This line only once!!
-columns['3'] = {
-  blocks:  [
-      ...,
-      buttons.yr,
-      ...
-  ],
-  width: 1
-}
 //Definition of blocks                                                                                         
 blocks = {}                                                                                                    
 blocks[93] = { width: 6}                                                                                       
