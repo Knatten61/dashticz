@@ -9,6 +9,7 @@ config['auto_positioning'] = 0; // Use 0 this if you have defined your own colum
 
 config['default_news_url'] = 'https://www.nrk.no/toppsaker.rss';
 
+
 buttons = {}            //only once!!
 buttons.yr = {
     width: 4,
