@@ -6,10 +6,8 @@ config['dashticz_refresh'] = '60';
                                                                                                                
 config['use_favorites'] = 0; //Request all Domoticz Devices, not only favorites                                
 config['auto_positioning'] = 0; // Use 0 this if you have defined your own columns                             
-         
 
-blocks['news_tweakers'] = {feed: 'https://www.nrk.no/toppsaker.rss'}
-
+config['default_news_url'] = 'https://www.nrk.no/toppsaker.rss';
 
 //Definition of blocks                                                                                         
 blocks = {}                                                                                                    
@@ -22,7 +20,7 @@ columns = {}
 columns[2] = { blocks : [94, 93], width: 8}                                                                    
 
 columns[1] = {
-  blocks: ['news', 'news_tweakers'],
+  blocks: ['news'],
   width: 4
 }
                                                                                                                
