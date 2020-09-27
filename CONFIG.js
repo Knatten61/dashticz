@@ -25,6 +25,8 @@ blocks[94] = { width: 6}
 blocks[49] = { width: 4}
 blocks[33] = { width: 4}                                                                                       
 
+columns[1]['blocks'] = ['clock'];
+
                                                                                                                
 //Definition of columns                                                                                        
 columns = {}                                                                                                   
@@ -32,6 +34,7 @@ columns[1] = { blocks : [94, 93], width: 8}
 //columns[2] = {blocks: ['news'],width: 4}
 columns[2] = {blocks: [buttons.yr]}
 columns[3] = {blocks: [49,33], width:4}
+columns[2]['blocks'] = ['clock'];
                                                                                                                
 //Definition of screens                                                                                        
 screens = {}                                                                                                   
