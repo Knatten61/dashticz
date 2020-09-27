@@ -29,8 +29,8 @@ blocks[33] = { width: 4}
 //Definition of columns                                                                                        
 columns = {}                                                                                                   
 columns[1] = { blocks : [94, 93], width: 8}                                                                    
-columns[2] = {blocks: ['news'],width: 4}
-columns[2] = {blocks: ['buttons.yr']}
+//columns[2] = {blocks: ['news'],width: 4}
+columns[2] = {blocks: [buttons.yr]}
 columns[3] = {blocks: [49,33], width:4}
                                                                                                                
 //Definition of screens                                                                                        
