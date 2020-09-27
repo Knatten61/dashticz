@@ -24,9 +24,6 @@ blocks[93] = { width: 6}
 blocks[94] = { width: 6}                                                                                       
 blocks[49] = { width: 4}
 blocks[33] = { width: 4}                                                                                       
-
-columns[1]['blocks'] = ['clock'];
-
                                                                                                                
 //Definition of columns                                                                                        
 columns = {}                                                                                                   
