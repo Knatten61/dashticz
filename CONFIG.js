@@ -11,7 +11,7 @@ config['default_news_url'] = 'https://www.nrk.no/toppsaker.rss';
 
 buttons = {}            //only once!!
 buttons.yr = {
-    width: 12,
+    width: 4,
   isimage: true,
   refreshimage: 60,
     btnimage: 'https://www.yr.no/sted/Norge/Innlandet/Gran/Lauvstuhagan/advanced_meteogram.png',
